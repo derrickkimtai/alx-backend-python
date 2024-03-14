@@ -1,4 +1,4 @@
-#!/usr/bin/env ptython3
+#!/usr/bin/env python3
 """sum of input list"""
 from typing import List
 """imports list"""
