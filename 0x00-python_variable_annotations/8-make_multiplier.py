@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 """sum up a list containg integers and floats"""
 from collections.abc import Callable
 """imports Callable and it should be captal"""
