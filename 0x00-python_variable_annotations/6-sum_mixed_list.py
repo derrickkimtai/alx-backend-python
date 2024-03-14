@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """sum up a list containg integers and floats"""
+from typing import List, Union
 
-
-mxd_lst: list[int, float]
+mxd_lst: List[Union[int, float]]
 
 
 def sum_mixed_list(mxd_lst) -> float:
