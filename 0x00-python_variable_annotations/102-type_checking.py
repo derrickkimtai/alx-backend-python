@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
-from typing import Tuple, Any
-"""imports the above"""
+from typing import Tuple
 
 
 def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
     """
-        Zooms in on the given tuple
-
+    Zooms in on the given tuple
     Args:
         lst: The input tuple to be zoomed in.
         factor: The zoom factor. Default is 2.
@@ -17,7 +15,7 @@ def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
     """
     zoomed_in: Tuple[int, ...] = tuple(
         item for item in lst
-        for i in range(factor)
+        for _ in range(factor)
     )
     return zoomed_in
 
