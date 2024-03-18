@@ -16,6 +16,6 @@ async def wait_random(max_delay: float = 10) -> float:
         float: The random number that was generated.
 
     """
-    random_number = random.uniform(1, max_delay)
+    random_number = random.uniform(0, max_delay)
     await asyncio.sleep(random_number)
     return random_number
